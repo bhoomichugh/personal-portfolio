@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sand">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhoomi Chugh — Engineer • Curious Mind • Storyteller</title>
+  <meta name="description" content="Personal brand portfolio of Bhoomi Chugh. Engineer by education. Curious by nature. A storyteller by personality. Building things, exploring ideas, and solving problems.">
+  
+  <!-- Editorial Typography: Instrument Serif + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Organic Background Gradients -->
+  <div class="ambient-layer layer-sand"></div>
+  <div class="ambient-layer layer-rose"></div>
+  <div class="ambient-layer layer-olive"></div>
+  <canvas id="ambient-canvas"></canvas>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#stack" class="nav-link">Tech Stack</a>
+        <a href="#beyond-code" class="nav-link">Beyond Code</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#connect" class="nav-link">Connect</a>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <button id="theme-toggle" class="control-pill" title="Toggle Soft Sand / Olive Night Mode" aria-label="Toggle Theme">
+          <span class="ctrl-icon" id="theme-icon">🌿</span>
+          <span class="ctrl-text" id="theme-label">Sand</span>
+        </button>
+        <button id="sound-toggle" class="control-pill" title="Toggle sound feedback" aria-label="Toggle Sound">
+          <span class="ctrl-icon">🔊</span>
+          <span class="ctrl-text">SFX</span>
+        </button>
+        <a href="#connect" class="btn-nav-talk">Let's Talk ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-body">
+
+    <!-- =================================================================
+         01. HOME — A LITTLE INTRODUCTION
+         ================================================================= -->
+    <section id="home" class="section hero-section">
+      <div class="hero-layout">
+        
+        <div class="hero-narrative">
+          <p class="hero-salutation">Hey there, I am</p>
+          <h1 class="hero-heading">
+            Bhoomi <span class="serif-accent">Chugh</span>
+          </h1>
+
+          <p class="hero-subhead">
+            Engineer by education. Curious by nature. A storyteller by personality.
+          </p>
+
+          <p class="hero-paragraph">
+            Building things, exploring ideas, solving problems and figuring things out along the way. Driven by thoughtful engineering, clean architecture, and the human conversations that connect code with people.
+          </p>
+
+          <div class="hero-action-row">
+            <a href="#projects" class="btn btn-olive">
+              <span>View Selected Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#connect" class="btn btn-outline">
+              <span>Get in Touch</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <div class="hero-social-breadcrumbs">
+            <span class="crumb-label">Connect:</span>
+            <a href="https://www.linkedin.com/in/bhoomi-chugh-5b8051291/" target="_blank" rel="noopener noreferrer" class="crumb-link">LinkedIn ↗</a>
+            <span class="crumb-dot">•</span>
+            <a href="https://github.com/bhoomichugh" target="_blank" rel="noopener noreferrer" class="crumb-link">GitHub ↗</a>
+            <span class="crumb-dot">•</span>
+            <a href="mailto:bhoomichugh30@gmail.com" class="crumb-link">Email ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         02. ABOUT ME — WHO IS BHOOMI?
+         ================================================================= -->
+    <section id="about" class="section about-section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">Introduction</span>
+        <h2 class="section-h2">Who is <span class="serif-accent">Bhoomi?</span></h2>
+        <p class="section-lead">Beyond the syntax, pull requests, and coursework</p>
+      </div>
+
+      <div class="about-editorial-grid">
+        <div class="about-story-column">
+          <div class="lead-greeting">Hey, I'm Bhoomi! 👋</div>
+
+          <p class="story-copy">
+            I'm a <strong>Computer Science Engineering student</strong> who loves exploring ideas, building things and figuring out how things work.
+          </p>
+
+          <p class="story-copy">
+            My journey in technology hasn't been limited to one particular area. I've explored everything from <strong>IoT and full-stack development</strong> to <strong>backend engineering, AI and modern system architecture</strong>. I enjoy experimenting with different technologies and understanding how they can solve real-world problems.
+          </p>
+
+          <div class="editorial-callout">
+            <p>But there's more to me than just code.</p>
+          </div>
+
+          <p class="story-copy">
+            I'm someone who loves <strong>sharing ideas, meeting people, having conversations and bringing people together</strong>. From being involved in college communities and organising events to helping build a student tech community of <strong>700+ members</strong>, I've discovered that I enjoy the people and business side of technology just as much as the technical side.
+          </p>
+
+          <p class="story-copy">
+            I'm naturally curious, a little detail-oriented, always looking for ways to improve things, and definitely someone who always has a story to tell.
+          </p>
+
+          <div class="currently-card">
+            <span class="curr-badge">⚡ Currently</span>
+            <p class="curr-text">
+              Exploring opportunities in AI, software engineering, product and growth, while continuing to build, learn and experiment.
+            </p>
+          </div>
+
+          <div class="creed-text">
+            "I believe in learning by doing, taking ownership and figuring things out along the way."
+          </div>
+        </div>
+
+        <!-- A FEW THINGS ABOUT ME -->
+        <div class="about-traits-column">
+          <div class="traits-intro">
+            <h3 class="traits-main-title">A few things about me</h3>
+            <span class="traits-tagline">Personal touches & strengths ✨</span>
+          </div>
+
+          <div class="trait-box">
+            <div class="trait-details">
+              <h4 class="trait-name">The Storyteller</h4>
+              <p class="trait-quote">
+                Always have a story to tell. I love conversations and exchanging ideas.
+              </p>
+            </div>
+            <span class="trait-icon-symbol">🎙️</span>
+          </div>
+
+          <div class="trait-box">
+            <div class="trait-details">
+              <h4 class="trait-name">The Explorer</h4>
+              <p class="trait-quote">
+                I like exploring different fields before deciding what I want to pursue.
+              </p>
+            </div>
+            <span class="trait-icon-symbol">🧭</span>
+          </div>
+
+          <div class="trait-box">
+            <div class="trait-details">
+              <h4 class="trait-name">The Perfectionist</h4>
+              <p class="trait-quote">
+                I love giving ideas and finding ways to make things better.
+              </p>
+            </div>
+            <span class="trait-icon-symbol">✨</span>
+          </div>
+
+          <div class="trait-box">
+            <div class="trait-details">
+              <h4 class="trait-name">The People Person</h4>
+              <p class="trait-quote">
+                I enjoy meeting people, building connections and bringing ideas to life.
+              </p>
+            </div>
+            <span class="trait-icon-symbol">🤝</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         03. PROJECTS — THINGS I'VE BUILT (CLEAN & UNIQUE)
+         ================================================================= -->
+    <section id="projects" class="section projects-section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">Selected Work</span>
+        <h2 class="section-h2">Things I've <span class="serif-accent">Built</span></h2>
+        <p class="section-lead">A curated collection of full-stack platforms, business solutions, and assistive hardware</p>
+      </div>
+
+      <div class="projects-editorial-grid">
+
+        <!-- Project 1: Smart Laundry Management System -->
+        <article class="project-card">
+          <div class="card-topline">
+            <span class="card-domain domain-olive">Enterprise & Full-Stack</span>
+          </div>
+
+          <h3 class="card-heading">Smart Laundry Management System</h3>
+          <p class="card-abstract">End-to-end campus & commercial laundry service lifecycle management platform.</p>
+
+          <div class="problem-statement-box">
+            <span class="box-label">The Problem Solved</span>
+            <p class="box-copy">
+              Eliminated lost garments, manual bookkeeping, and pickup delays in high-volume dormitories with automated order lifecycle tracking, role-based dashboards, and instant status notifications.
+            </p>
+          </div>
+
+          <div class="stack-pill-row">
+            <span class="pill-badge">Java</span>
+            <span class="pill-badge">Spring Boot</span>
+            <span class="pill-badge">MySQL</span>
+            <span class="pill-badge">React</span>
+            <span class="pill-badge">REST APIs</span>
+          </div>
+
+          <div class="card-action-bar">
+            <button class="btn-card-details" onclick="openProjectModal('laundry')">
+              <span>View Case Study & Problem Breakdown</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 2: Real-Time Ticket Booking Platform -->
+        <article class="project-card">
+          <div class="card-topline">
+            <span class="card-domain domain-rose">High-Concurrency Web</span>
+          </div>
+
+          <h3 class="card-heading">Real-Time Ticket Booking Platform</h3>
+          <p class="card-abstract">Seat reservation platform with live interactive auditorium mapping and race condition prevention.</p>
+
+          <div class="problem-statement-box">
+            <span class="box-label">The Problem Solved</span>
+            <p class="box-copy">
+              Prevented double-booking conflicts during peak flash reservation releases using database transaction isolation, optimistic lock timeouts, and real-time WebSocket seat sync across active browsers.
+            </p>
+          </div>
+
+          <div class="stack-pill-row">
+            <span class="pill-badge">Node.js</span>
+            <span class="pill-badge">Express</span>
+            <span class="pill-badge">MongoDB</span>
+            <span class="pill-badge">WebSockets</span>
+            <span class="pill-badge">JavaScript</span>
+          </div>
+
+          <div class="card-action-bar">
+            <button class="btn-card-details" onclick="openProjectModal('booking')">
+              <span>View Case Study & Problem Breakdown</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 3: Astrologer CRM & Client Portal -->
+        <article class="project-card">
+          <div class="card-topline">
+            <span class="card-domain domain-olive">Product & CRM Tool</span>
+          </div>
+
+          <h3 class="card-heading">Astrologer CRM & Client Portal</h3>
+          <p class="card-abstract">Consultation scheduling, client natal record profiles, and revenue analytics dashboard.</p>
+
+          <div class="problem-statement-box">
+            <span class="box-label">The Problem Solved</span>
+            <p class="box-copy">
+              Replaced unorganized chat records with a centralized consultation workstation that tracks client charts, appointment calendars, automated payment reminders, and longitudinal consultation history.
+            </p>
+          </div>
+
+          <div class="stack-pill-row">
+            <span class="pill-badge">React</span>
+            <span class="pill-badge">Node.js</span>
+            <span class="pill-badge">Express</span>
+            <span class="pill-badge">MySQL</span>
+            <span class="pill-badge">JWT Auth</span>
+          </div>
+
+          <div class="card-action-bar">
+            <button class="btn-card-details" onclick="openProjectModal('crm')">
+              <span>View Case Study & Problem Breakdown</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 4: IoT-based Wheelchair -->
+        <article class="project-card">
+          <div class="card-topline">
+            <span class="card-domain domain-sand">Hardware & Assistive Tech</span>
+          </div>
+
+          <h3 class="card-heading">IoT-Powered Smart Assistive Wheelchair</h3>
+          <p class="card-abstract">Obstacle-detecting, gesture-controlled mobility solution with emergency telemetry.</p>
+
+          <div class="problem-statement-box">
+            <span class="box-label">The Problem Solved</span>
+            <p class="box-copy">
+              Empowered individuals with severe motor restrictions using ultrasonic collision avoidance, head-gesture accelerometer guidance, and cloud-linked emergency SOS alerts for caregivers.
+            </p>
+          </div>
+
+          <div class="stack-pill-row">
+            <span class="pill-badge">C++</span>
+            <span class="pill-badge">Embedded C</span>
+            <span class="pill-badge">Arduino / ESP32</span>
+            <span class="pill-badge">Ultrasonic Sensors</span>
+            <span class="pill-badge">MQTT</span>
+          </div>
+
+          <div class="card-action-bar">
+            <button class="btn-card-details" onclick="openProjectModal('wheelchair')">
+              <span>View Case Study & Problem Breakdown</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         04. MY TECH STACK
+         ================================================================= -->
+    <section id="stack" class="section stack-section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">Tech Stack</span>
+        <h2 class="section-h2">My Tech <span class="serif-accent">Stack</span></h2>
+        <p class="section-lead">Technologies and frameworks I build with</p>
+      </div>
+
+      <div class="stack-matrix-grid">
+
+        <div class="stack-group-card">
+          <div class="group-header">
+            <span class="group-sym">🔤</span>
+            <div>
+              <h3 class="group-title">Programming Languages</h3>
+              <span class="group-sub">Core languages for logic and systems</span>
+            </div>
+          </div>
+          <div class="skills-chips">
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>Java</strong><span>Core & Spring</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>Python</strong><span>Scripting & AI</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>C++</strong><span>DSA & Embedded</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>JavaScript</strong><span>ES6+ & Async</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>SQL</strong><span>Schema & Relational</span></div>
+          </div>
+        </div>
+
+        <div class="stack-group-card">
+          <div class="group-header">
+            <span class="group-sym">⚙️</span>
+            <div>
+              <h3 class="group-title">Backend Engineering</h3>
+              <span class="group-sub">APIs, services, and asynchronous runtimes</span>
+            </div>
+          </div>
+          <div class="skills-chips">
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>Spring Boot</strong><span>Enterprise</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>Node.js</strong><span>Event Runtime</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>Express</strong><span>RESTful APIs</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>FastAPI</strong><span>Async Python</span></div>
+          </div>
+        </div>
+
+        <div class="stack-group-card">
+          <div class="group-header">
+            <span class="group-sym">🗄️</span>
+            <div>
+              <h3 class="group-title">Databases & Storage</h3>
+              <span class="group-sub">Relational and document persistence</span>
+            </div>
+          </div>
+          <div class="skills-chips">
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>MySQL</strong><span>Relational / ACID</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>MongoDB</strong><span>NoSQL Document</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>Vector Stores</strong><span>Chroma / FAISS</span></div>
+          </div>
+        </div>
+
+        <div class="stack-group-card">
+          <div class="group-header">
+            <span class="group-sym">🧠</span>
+            <div>
+              <h3 class="group-title">AI & Modern Tooling</h3>
+              <span class="group-sub">Generative models and intelligence</span>
+            </div>
+          </div>
+          <div class="skills-chips">
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>LLMs & Prompting</strong><span>Gemini, GPT</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>RAG Pipelines</strong><span>Context Retrieval</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>Embeddings</strong><span>Vector Proximity</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>LangChain</strong><span>Chaining Logic</span></div>
+          </div>
+        </div>
+
+        <div class="stack-group-card span-all">
+          <div class="group-header">
+            <span class="group-sym">🛠️</span>
+            <div>
+              <h3 class="group-title">Tools, Cloud & DevOps</h3>
+              <span class="group-sub">Infrastructure and developer workflows</span>
+            </div>
+          </div>
+          <div class="skills-chips chips-horizontal">
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>Git & GitHub</strong><span>Version Control</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>Docker</strong><span>Containers</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>AWS</strong><span>Cloud Essentials</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-olive"></span><strong>Kubernetes</strong><span>Orchestration</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-sand"></span><strong>Linux</strong><span>Shell & CLI</span></div>
+            <div class="skill-tag"><span class="chip-dot dot-rose"></span><strong>Postman</strong><span>API Testing</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         05. BEYOND CODE — MY OTHER SIDE
+         ================================================================= -->
+    <section id="beyond-code" class="section beyond-section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">Beyond Code</span>
+        <h2 class="section-h2">My Other <span class="serif-accent">Side</span></h2>
+        <p class="section-lead">Leadership, community building, storytelling, and creative pursuits</p>
+      </div>
+
+      <div class="beyond-editorial-banner">
+        <span class="banner-tag">This is where I stand out ✨</span>
+        <p class="banner-quote">
+          "Code builds software, but communication and community build movements. I thrive at the intersection where technical engineering meets storytelling, empathy, and leadership."
+        </p>
+      </div>
+
+      <div class="beyond-narrative-grid">
+
+        <div class="beyond-tile">
+          <span class="tile-icon">🎙️</span>
+          <span class="tile-category">Campus Leadership</span>
+          <h3 class="tile-title">Media Head at IEEE</h3>
+          <p class="tile-text">
+            Led brand storytelling, media strategy, and campaign direction for premier IEEE technical conferences, driving campus-wide participation and creative outreach.
+          </p>
+          <div class="tile-highlight">
+            <strong class="tile-num">2,000+</strong>
+            <span class="tile-lbl">Student Reach across Campus Campaigns</span>
+          </div>
+        </div>
+
+        <div class="beyond-tile">
+          <span class="tile-icon">🌐</span>
+          <span class="tile-category">Community Architecture</span>
+          <h3 class="tile-title">Building a 700+ Student Tech Community</h3>
+          <p class="tile-text">
+            Spearheaded and scaled a vibrant student developer collective. Organized peer code-review circles, collaborative hackathons, and foundational learning pods.
+          </p>
+          <div class="tile-highlight">
+            <strong class="tile-num">700+</strong>
+            <span class="tile-lbl">Active Members Building & Learning Together</span>
+          </div>
+        </div>
+
+        <div class="beyond-tile">
+          <span class="tile-icon">🚀</span>
+          <span class="tile-category">Outreach & Education</span>
+          <h3 class="tile-title">Outreach Executive at Coding Ninjas (CUIET)</h3>
+          <p class="tile-text">
+            Bridged student cohorts with foundational software engineering tracks, DSA problem-solving sessions, and practical dev workshops at Chitkara University.
+          </p>
+          <div class="tile-highlight">
+            <strong class="tile-num">15+</strong>
+            <span class="tile-lbl">Workshops & Technical Bootcamps Hosted</span>
+          </div>
+        </div>
+
+        <div class="beyond-tile">
+          <span class="tile-icon">📷</span>
+          <span class="tile-category">Creative Storytelling</span>
+          <h3 class="tile-title">Photography & Creative Lens</h3>
+          <p class="tile-text">
+            Visual storytelling taught me that details matter. From composition and color balance to capturing human moments, my creative eye fuels user empathy and product polish.
+          </p>
+          <div class="tile-highlight">
+            <strong class="tile-num">100%</strong>
+            <span class="tile-lbl">Focus on Human Experience & Visual Harmony</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         06. ACHIEVEMENTS & PUBLICATIONS (ACCURATELY CORRECTED)
+         ================================================================= -->
+    <section id="achievements" class="section achievements-section">
+      <div class="section-title-wrap">
+        <span class="section-kicker">Achievements & Publications</span>
+        <h2 class="section-h2">Achievements & <span class="serif-accent">Publications</span></h2>
+        <p class="section-lead">Scholarly research publications and recognized certifications</p>
+      </div>
+
+      <div class="achievements-showcase">
+
+        <!-- Accurately corrected Taylor & Francis / CRC Press Book Chapter Card -->
+        <div class="publication-prestige-card">
+          <div class="prestige-tag-row">
+            <span class="prestige-badge">📚 Book Chapter Publication</span>
+            <span class="prestige-publisher">CRC Press / Taylor & Francis, 2025</span>
+          </div>
+          <h3 class="prestige-title">Emerging Trends and Challenges in Next-Generation Wearable Health Monitoring Devices</h3>
+          <p class="prestige-subtitle">Book: <em>Wearable Health Monitoring Devices</em> • Author: Bhoomi Chugh</p>
+          <p class="prestige-body">
+            Authored a scholarly book chapter published with globally distinguished academic press <strong>CRC Press / Taylor & Francis (2025)</strong> in the research volume <em>Wearable Health Monitoring Devices</em>. The work investigates biological sensor integration, low-power telemetry, and design constraints in next-generation wearable diagnostics.
+          </p>
+          <div class="prestige-meta-list">
+            <span class="meta-pill">📖 Book: Wearable Health Monitoring Devices</span>
+            <span class="meta-pill">🏛️ Publisher: CRC Press / Taylor & Francis</span>
+            <span class="meta-pill">🔬 Year: 2025</span>
+            <span class="meta-pill">✍️ Author: Bhoomi Chugh</span>
+          </div>
+        </div>
+
+        <!-- Certifications Row -->
+        <div class="certs-editorial-grid">
+
+          <div class="cert-card">
+            <span class="cert-sym">☕</span>
+            <h4 class="cert-name">Wipro TalentNext Java Full Stack</h4>
+            <p class="cert-desc">Wipro Certified Program</p>
+            <span class="cert-badge">Enterprise Java & Spring</span>
+          </div>
+
+          <div class="cert-card">
+            <span class="cert-sym">☁️</span>
+            <h4 class="cert-name">AWS Cloud Essentials</h4>
+            <p class="cert-desc">Amazon Web Services</p>
+            <span class="cert-badge">Cloud Computing & S3</span>
+          </div>
+
+          <div class="cert-card">
+            <span class="cert-sym">☸️</span>
+            <h4 class="cert-name">Kubernetes Certification</h4>
+            <p class="cert-desc">Cloud Native Infrastructure</p>
+            <span class="cert-badge">Pods & Containers</span>
+          </div>
+
+          <div class="cert-card">
+            <span class="cert-sym">🏢</span>
+            <h4 class="cert-name">Nutanix Certified Associate</h4>
+            <p class="cert-desc">Nutanix NCA</p>
+            <span class="cert-badge">Hyperconverged Systems</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         07. LET'S CONNECT (CLEAN: DIRECT LINKS, NO RESUME BUTTON)
+         ================================================================= -->
+    <section id="connect" class="section connect-section">
+      <div class="connect-sanctuary">
+        <div class="connect-narrative">
+          <span class="section-kicker">Contact</span>
+          <h2 class="connect-h2">
+            Have an interesting idea or opportunity? <br><span class="serif-accent">Let's talk.</span>
+          </h2>
+          <p class="connect-sub">
+            Whether you are considering me for an engineering or product role, exploring a creative project, or simply want to chat about tech and communities—my inbox is always open.
+          </p>
+        </div>
+
+        <div class="connect-two-columns">
+          
+          <div class="contact-links-column">
+            
+            <div class="contact-card-link">
+              <span class="link-sym">✉️</span>
+              <div class="link-texts">
+                <span class="link-label">Direct Email</span>
+                <a href="mailto:bhoomichugh30@gmail.com" class="link-anchor" id="display-email">bhoomichugh30@gmail.com</a>
+              </div>
+              <button class="btn-copy-action" id="btn-copy-email">📋 Copy</button>
+            </div>
+
+            <div class="contact-card-link">
+              <span class="link-sym">💼</span>
+              <div class="link-texts">
+                <span class="link-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/bhoomi-chugh-5b8051291/" target="_blank" rel="noopener noreferrer" class="link-anchor">linkedin.com/in/bhoomi-chugh-5b8051291/ ↗</a>
+              </div>
+            </div>
+
+            <div class="contact-card-link">
+              <span class="link-sym">🐙</span>
+              <div class="link-texts">
+                <span class="link-label">GitHub</span>
+                <a href="https://github.com/bhoomichugh" target="_blank" rel="noopener noreferrer" class="link-anchor">github.com/bhoomichugh ↗</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="message-composer-column">
+            <div class="composer-card">
+              <h3 class="composer-heading">Drop a quick note</h3>
+              <p class="composer-sub">Send a message or proposal directly</p>
+
+              <form id="contact-form" onsubmit="event.preventDefault(); handleSendMessage();">
+                <div class="input-block">
+                  <label for="sender-name">Your Name</label>
+                  <input type="text" id="sender-name" class="input-field" placeholder="e.g. Sarah Jenkins" required>
+                </div>
+
+                <div class="input-block">
+                  <label for="sender-topic">Subject / Opportunity</label>
+                  <select id="sender-topic" class="input-field">
+                    <option value="Internship / Full-time Role">Internship / Full-time Opportunity</option>
+                    <option value="Technical Project Collaboration">Technical Project Collaboration</option>
+                    <option value="Community Speaking / Workshop">Community Speaking / Workshop</option>
+                    <option value="Casual Coffee Chat">Casual Coffee Chat</option>
+                  </select>
+                </div>
+
+                <div class="input-block">
+                  <label for="sender-msg">Message</label>
+                  <textarea id="sender-msg" rows="4" class="input-field" placeholder="Hi Bhoomi, I'd love to connect..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-olive btn-full">
+                  <span>Send Message 🚀</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="connect-base-footer">
+          <p>© Bhoomi Chugh</p>
+          <a href="#home" class="scroll-top-link">Back to top ↑</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       PROJECT DETAIL MODAL (CLEAN & CASE STUDY ONLY)
+       ================================================================= -->
+  <div id="project-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <div class="modal-nav-header">
+        <div>
+          <h3 class="modal-head-title" id="pm-title">Project Case Study</h3>
+          <span class="modal-head-sub" id="pm-tagline">Architecture & Problem Breakdown</span>
+        </div>
+        <button class="btn-modal-dismiss" id="btn-close-project-modal" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-scroll-area" id="pm-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Shelf -->
+  <div id="toast-shelf" class="toast-shelf" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
